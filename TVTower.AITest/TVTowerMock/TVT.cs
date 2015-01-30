@@ -9,7 +9,8 @@ namespace TVTower.AITest.TVTowerMock
     {
         public void AddToLog( string message )
         {
-
+            //Console.WriteLine( message );
+            System.Diagnostics.Trace.WriteLine( message );
         }
 
         public float GetMillisecs()

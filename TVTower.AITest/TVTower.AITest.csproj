@@ -52,7 +52,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIEngineTest.cs" />
     <Compile Include="BudgetTest.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="LuaTestHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SLFTest.cs" />
